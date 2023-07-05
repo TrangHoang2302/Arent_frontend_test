@@ -10,6 +10,7 @@ import Index from "../container";
 
 import ModuleNotFound from "../pages/not-found";
 import TopPage from "../pages/top-page";
+import ColumnPage from "../pages/column-page";
 
 class Routes extends Component {
     render() {
@@ -18,6 +19,7 @@ class Routes extends Component {
                 {/* Default */}
                 <Route path={"/"} component={Index}>
                     <IndexRoute component={TopPage} />
+                    <Route path={"/column-page"} component={ColumnPage} />
                     <Route path="*" exact={true} component={ModuleNotFound} />
                 </Route>
             </Router>
