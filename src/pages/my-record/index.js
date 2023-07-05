@@ -32,7 +32,7 @@ const arrBtnMove = [
 const styles = {
     btnToTop: {
         position: "fixed",
-        bottom: 100,
+        bottom: 150,
         right: 200,
         border: "1px solid",
         transform: "rotate(90deg)",
