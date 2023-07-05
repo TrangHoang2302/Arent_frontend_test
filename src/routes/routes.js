@@ -11,6 +11,7 @@ import Index from "../container";
 import ModuleNotFound from "../pages/not-found";
 import TopPage from "../pages/top-page";
 import MyRecord from "../pages/my-record";
+import ColumnPage from "../pages/column-page";
 
 class Routes extends Component {
     render() {
@@ -20,6 +21,7 @@ class Routes extends Component {
                 <Route path={"/"} component={Index}>
                     <IndexRoute component={TopPage} />
                     <Route path="/my-record" exact={true} component={MyRecord} />
+                    <Route path={"/column-page"} component={ColumnPage} />
                     <Route path="*" exact={true} component={ModuleNotFound} />
                 </Route>
             </Router>
