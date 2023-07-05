@@ -16,7 +16,7 @@ class Index extends Component {
         return (
             <>
                 <Header />
-                <Box sx={{ maxWidth: 960, margin: "auto" }}>{children}</Box>
+                <Box sx={{ maxWidth: 960, margin: "auto", padding: "64px 0 128px 0" }}>{children}</Box>
                 <Footer />
             </>
         );
