@@ -5,7 +5,7 @@
  *************************/
 
 import React from "react";
-import { Grid, Box } from "@mui/material";
+import { Grid, Box, Button } from "@mui/material";
 import Record from "../../components/record";
 import BodyFatGraph from "./body-fat-graph.js";
 import ExerciseRecord from "./exercise-record.js";
@@ -29,7 +29,32 @@ const arrBtnMove = [
     },
 ];
 
+const styles = {
+    btnToTop: {
+        position: "fixed",
+        bottom: 100,
+        right: 200,
+        border: "1px solid",
+        transform: "rotate(90deg)",
+        borderRadius: 100,
+        fontSize: 30,
+        width: 40,
+        height: 60,
+        backgroundColor: "white",
+    },
+};
+
 const MyRecord = () => {
+    /**
+     * Scroll to top
+     */
+    const toTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth", // for smoothly scrolling
+        });
+    };
+
     return (
         <Grid container spacing={10}>
             {/*Button to move to each entry screen*/}
@@ -55,6 +80,10 @@ const MyRecord = () => {
             <Grid item xs={12}>
                 <Diary />
             </Grid>
+
+            <Button variant={"text"} sx={styles.btnToTop} onClick={toTop}>
+                {`<`}
+            </Button>
         </Grid>
     );
 };
