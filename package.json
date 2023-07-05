@@ -16,6 +16,9 @@
     "react-scripts": "3.4.1",
     "validator": "^7.0.0"
   },
+  "devDependencies": {
+    "react-error-overlay": "6.0.9"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
