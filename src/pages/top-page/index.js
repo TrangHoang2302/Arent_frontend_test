@@ -5,7 +5,7 @@
  *************************/
 
 import React, { useMemo } from "react";
-import { Grid, Box } from "@mui/material";
+import { Grid, Box, Typography } from "@mui/material";
 import Hex from "../../component/hex";
 import moment from "moment";
 
@@ -75,18 +75,37 @@ const TopPage = () => {
     return (
         <Grid container justifyContent="center">
             {/*Date-Achievement rate*/}
-            <Grid item xs={4}>
-                <Box
-                    component="img"
-                    sx={{
-                        width: "100%",
-                        height: 312,
-                        objectFit: "cover",
-                    }}
-                    alt=""
-                    src={require("../../assets/image/d01.jpg")}
-                />
-            </Grid>
+            <Box sx={{ position: "relative" }}>
+                <Grid item xs={4}>
+                    <Box
+                        component="img"
+                        sx={{
+                            height: 312,
+                            objectFit: "cover",
+                        }}
+                        alt=""
+                        src={require("../../assets/image/d01.jpg")}
+                    />
+                    <Box
+                        sx={{
+                            position: "absolute",
+                            top: "50%",
+                            left: "50%",
+                            transform: "translate(-50%, -50%)",
+                            border: "2px solid white",
+                            borderRadius: 100,
+                            width: 180,
+                            height: 180,
+                            color: "white",
+                        }}
+                        display="flex"
+                        justifyContent="center"
+                        alignItems="center"
+                    >
+                        <Typography>{`${moment().format("DD-MM")} - 75%}`}</Typography>
+                    </Box>
+                </Grid>
+            </Box>
 
             {/*Body weight - Body fat percentage graph*/}
             <Grid item xs={8}>
