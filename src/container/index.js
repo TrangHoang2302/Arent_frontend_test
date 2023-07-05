@@ -5,6 +5,7 @@
  *************************/
 
 import React, { Component } from "react";
+import { Box } from "@mui/material";
 
 import Header from "../layouts/header";
 import Footer from "../layouts/footer";
@@ -15,7 +16,7 @@ class Index extends Component {
         return (
             <>
                 <Header />
-                {children}
+                <Box sx={{ maxWidth: 960, margin: "auto" }}>{children}</Box>
                 <Footer />
             </>
         );
