@@ -62,7 +62,15 @@ const Header = () => {
     const id = open ? "simple-popover" : undefined;
 
     return (
-        <Box sx={{ backgroundColor: "#414141" }}>
+        <Box
+            sx={{
+                backgroundColor: "#414141",
+                position: "fixed",
+                top: 0,
+                left: 0,
+                width: "100%",
+            }}
+        >
             <Box
                 sx={{ height: 64, maxWidth: 960, margin: "auto" }}
                 display={"flex"}
