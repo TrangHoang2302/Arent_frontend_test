@@ -22,28 +22,40 @@ const Footer = () => {
 
     return (
         <Box
-            display="flex"
-            gap={11}
-            alignItems="center"
-            flexDirection={"wrap"}
             sx={{
-                width: "100%",
-                height: 128,
-                padding: "56px 160px",
-                background: "#414141",
+                backgroundColor: "#414141",
                 position: "fixed",
                 bottom: 0,
                 left: 0,
-                color: "#FFFFFF",
+                width: "100%",
+                height: 128,
             }}
+            display={"flex"}
+            alignItems={"center"}
         >
-            {arrLink.map((link, index) => {
-                return (
-                    <Link key={index} onClick={onLink}>
-                        {link.label}
-                    </Link>
-                );
-            })}
+            <Box
+                sx={{ height: 64, maxWidth: "100%", width: 960, margin: "auto" }}
+                display={"flex"}
+                alignItems={"center"}
+            >
+                <Box
+                    gap={5}
+                    display="flex"
+                    alignItems="center"
+                    sx={{
+                        color: "#FFFFFF",
+                    }}
+                    flexWrap={"wrap"}
+                >
+                    {arrLink.map((link, index) => {
+                        return (
+                            <Link key={index} onClick={onLink}>
+                                {link.label}
+                            </Link>
+                        );
+                    })}
+                </Box>
+            </Box>
         </Box>
     );
 };
