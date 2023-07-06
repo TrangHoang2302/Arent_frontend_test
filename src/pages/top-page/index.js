@@ -77,7 +77,8 @@ const styles = {
         color: "white",
     },
     box1: {
-        height: 312,
+        // height: 312,
+        width: "100%",
         objectFit: "cover",
     },
     box2: {
@@ -96,19 +97,28 @@ const TopPage = () => {
     return (
         <Grid container justifyContent="center">
             {/*Date-Achievement rate*/}
-            <Box sx={{ position: "relative" }}>
-                <Grid item xs={4}>
-                    <Box component="img" sx={styles.box1} alt="" src={require("../../assets/image/d01.jpg")} />
-                    <Box sx={styles.positionAbsolute} display="flex" justifyContent="center" alignItems="center">
-                        <Typography>{`${moment().format("DD-MM")} - 75%}`}</Typography>
-                    </Box>
+            <Box sx={{ minWidth: "100vw" }} display={"flex"}>
+                <Grid container justifyContent="center" sx={{ minWidth: "100vw" }}>
+                    <Grid item xs={4}>
+                        <Box sx={{ position: "relative" }}>
+                            <Box component="img" sx={styles.box1} alt="" src={require("../../assets/image/d01.jpg")} />
+                            <Box
+                                sx={styles.positionAbsolute}
+                                display="flex"
+                                justifyContent="center"
+                                alignItems="center"
+                            >
+                                <Typography>{`${moment().format("DD-MM")} - 75%}`}</Typography>
+                            </Box>
+                        </Box>
+                    </Grid>
+
+                    {/*Body weight - Body fat percentage graph*/}
+                    <Grid item xs={8}>
+                        <BodyFatGraph />
+                    </Grid>
                 </Grid>
             </Box>
-
-            {/*Body weight - Body fat percentage graph*/}
-            <Grid item xs={8}>
-                <BodyFatGraph />
-            </Grid>
 
             {/*Button to transit to input*/}
             <Grid item xs={10}>
