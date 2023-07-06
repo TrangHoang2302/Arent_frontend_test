@@ -1,12 +1,14 @@
 {
   "name": "Arent_frontend_test",
   "private": true,
+  "homepage": "https://TrangHoang2303.github.io/Arent_frontend_test",
   "version": "0.1.0",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.7",
     "chart.js": "^2.9.3",
+    "gh-pages": "^5.0.0",
     "moment": "^2.29.4",
     "prop-types": "^15.8.1",
     "react": "^16.8.6",
@@ -23,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
