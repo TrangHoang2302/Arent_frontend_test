@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.js": "/Arent_frontend_test/static/js/main.4a04dc88.chunk.js",
+    "main.js.map": "/Arent_frontend_test/static/js/main.4a04dc88.chunk.js.map",
+    "runtime-main.js": "/Arent_frontend_test/static/js/runtime-main.ec6a4290.js",
+    "runtime-main.js.map": "/Arent_frontend_test/static/js/runtime-main.ec6a4290.js.map",
+    "static/js/2.1f1e6886.chunk.js": "/Arent_frontend_test/static/js/2.1f1e6886.chunk.js",
+    "static/js/2.1f1e6886.chunk.js.map": "/Arent_frontend_test/static/js/2.1f1e6886.chunk.js.map",
+    "index.html": "/Arent_frontend_test/index.html",
+    "precache-manifest.ce81caaf6f8ac95f0a4b1b76014c28a6.js": "/Arent_frontend_test/precache-manifest.ce81caaf6f8ac95f0a4b1b76014c28a6.js",
+    "service-worker.js": "/Arent_frontend_test/service-worker.js",
+    "static/js/2.1f1e6886.chunk.js.LICENSE.txt": "/Arent_frontend_test/static/js/2.1f1e6886.chunk.js.LICENSE.txt",
+    "static/media/MyRecommend-1.jpg": "/Arent_frontend_test/static/media/MyRecommend-1.7cdd1ea9.jpg",
+    "static/media/MyRecommend-2.jpg": "/Arent_frontend_test/static/media/MyRecommend-2.13ca9aa3.jpg",
+    "static/media/MyRecommend-3.jpg": "/Arent_frontend_test/static/media/MyRecommend-3.9967a9c2.jpg",
+    "static/media/column-1.jpg": "/Arent_frontend_test/static/media/column-1.87c4f3ce.jpg",
+    "static/media/column-2.jpg": "/Arent_frontend_test/static/media/column-2.c0debe25.jpg",
+    "static/media/column-3.jpg": "/Arent_frontend_test/static/media/column-3.a6e86e74.jpg",
+    "static/media/column-4.jpg": "/Arent_frontend_test/static/media/column-4.644de179.jpg",
+    "static/media/column-5.jpg": "/Arent_frontend_test/static/media/column-5.e920e87b.jpg",
+    "static/media/column-6.jpg": "/Arent_frontend_test/static/media/column-6.615e5008.jpg",
+    "static/media/column-7.jpg": "/Arent_frontend_test/static/media/column-7.4a3ab47e.jpg",
+    "static/media/column-8.jpg": "/Arent_frontend_test/static/media/column-8.0d4159f0.jpg",
+    "static/media/d01.jpg": "/Arent_frontend_test/static/media/d01.8be1141d.jpg",
+    "static/media/l03.jpg": "/Arent_frontend_test/static/media/l03.0df812d7.jpg",
+    "static/media/m01.jpg": "/Arent_frontend_test/static/media/m01.a816ae17.jpg",
+    "static/media/m02.jpg": "/Arent_frontend_test/static/media/m02.55244fbb.jpg",
+    "static/media/m03.jpg": "/Arent_frontend_test/static/media/m03.0094a421.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec6a4290.js",
+    "static/js/2.1f1e6886.chunk.js",
+    "static/js/main.4a04dc88.chunk.js"
+  ]
+}
