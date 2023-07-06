@@ -6,7 +6,7 @@
 
 import React from "react";
 import { Grid, Box, Typography } from "@mui/material";
-import Hex from "../../component/hex";
+import Hex from "../../components/hex";
 import BodyFatGraph from "./body-fat-graph";
 import moment from "moment";
 
