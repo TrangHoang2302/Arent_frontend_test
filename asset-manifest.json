@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Arent_frontend_test/static/js/main.4a04dc88.chunk.js",
-    "main.js.map": "/Arent_frontend_test/static/js/main.4a04dc88.chunk.js.map",
+    "main.js": "/Arent_frontend_test/static/js/main.ebc82c7e.chunk.js",
+    "main.js.map": "/Arent_frontend_test/static/js/main.ebc82c7e.chunk.js.map",
     "runtime-main.js": "/Arent_frontend_test/static/js/runtime-main.ec6a4290.js",
     "runtime-main.js.map": "/Arent_frontend_test/static/js/runtime-main.ec6a4290.js.map",
     "static/js/2.1f1e6886.chunk.js": "/Arent_frontend_test/static/js/2.1f1e6886.chunk.js",
     "static/js/2.1f1e6886.chunk.js.map": "/Arent_frontend_test/static/js/2.1f1e6886.chunk.js.map",
     "index.html": "/Arent_frontend_test/index.html",
-    "precache-manifest.ce81caaf6f8ac95f0a4b1b76014c28a6.js": "/Arent_frontend_test/precache-manifest.ce81caaf6f8ac95f0a4b1b76014c28a6.js",
+    "precache-manifest.4cf089b295bd8b023808bdbbf05e8a56.js": "/Arent_frontend_test/precache-manifest.4cf089b295bd8b023808bdbbf05e8a56.js",
     "service-worker.js": "/Arent_frontend_test/service-worker.js",
     "static/js/2.1f1e6886.chunk.js.LICENSE.txt": "/Arent_frontend_test/static/js/2.1f1e6886.chunk.js.LICENSE.txt",
     "static/media/MyRecommend-1.jpg": "/Arent_frontend_test/static/media/MyRecommend-1.7cdd1ea9.jpg",
@@ -30,6 +30,6 @@
   "entrypoints": [
     "static/js/runtime-main.ec6a4290.js",
     "static/js/2.1f1e6886.chunk.js",
-    "static/js/main.4a04dc88.chunk.js"
+    "static/js/main.ebc82c7e.chunk.js"
   ]
 }
